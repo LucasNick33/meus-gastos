@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'meus-gastos';
+  nome = 'Lucas';
+  nome2 = 'Costa';
+
+  exibirAlerta() {
+    alert(this.nome2);
+  }
+
 }
